@@ -9,7 +9,7 @@
 
   <!-- Nexus 4 specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="android_device_lge_gee-common" path="device/lge/gee-common" remote="xb" revision="vanir" />
+  <project name="android_device_lge_gee-common" path="device/lge/gee-common" remote="xb" revision="b2g" />
   <project name="android_device_lge_geeb" path="device/lge/geeb" remote="xb" revision="android-4.4" />
   <project name="kernel_msm" path="kernel/lge/gee" remote="xb" revision="xb" />
   <project name="proprietary_vendor_lge" path="vendor/lge" remote="xb" revision="android-4.4" />
