@@ -1,0 +1,32 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-kk.xml"/>
+  
+  <remote fetch="git://github.com/omnirom/" name="omni"/>
+  <remote fetch="git://github.com/xboxfanj/" name="xb"/>
+
+  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+
+  <!-- Nexus 4 specific things -->
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="android_device_lge_gee-common" path="device/lge/gee-common" remote="xb" revision="vanir" />
+  <project name="android_device_lge_geeb" path="device/lge/geeb" remote="xb" revision="android-4.4" />
+  <project name="kernel_msm" path="kernel/lge/gee" remote="xb" revision="xb" />
+  <project name="proprietary_vendor_lge" path="vendor/lge" remote="xb" revision="android-4.4" />
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="omni" revision="android-4.4" />
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960"/>
+  <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+
+</manifest>
